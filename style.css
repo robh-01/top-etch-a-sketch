@@ -16,11 +16,22 @@ body {
     height: 100vh;
     width: 100vh;
     border: 3px solid black;
-    gap: 1px;
 }
 
 .rowContainer {
     flex: 1 1 auto;
     display: flex;
-    flex: 1 1 auto;;
+    flex: 1 1 auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
 }
